@@ -1,5 +1,7 @@
+import persistDataPlugin from "../../plugins/persist-data";
 /* eslint-disable prettier/prettier */
 export default {
+  Plugins: [ persistDataPlugin ],
   namespaced: true,
   state() {
     return {
